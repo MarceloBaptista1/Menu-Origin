@@ -1,5 +1,5 @@
 <?php
-    require_once $_SERVER['DOCUMENT_ROOT'] . "/MenuOrigin/medicina/hamburger_tempera.php";
+    require_once $_SERVER['DOCUMENT_ROOT'] . "/Menu-Origin/medicina/hamburger_tempera.php";
     try{
         $array_bebidas = array();
 
