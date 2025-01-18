@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
+
+input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn-remove {
+    font-size: 10px;
+    padding: 2px 6px;
+    background-color: transparent; 
+    color: red; 
+    cursor: pointer; 
+    transition: all 0.3s ease;
+}
+
+.btn-minus {
+    color: red;
+}
+
+.btn-plus {
+    color: green;
+}
